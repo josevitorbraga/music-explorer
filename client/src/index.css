@@ -1,0 +1,69 @@
+body {
+  font-family: 'Josefin Sans', sans-serif;
+  background-color: #0F0D08;
+  box-sizing: border-box;
+  margin: 1rem 2rem;
+  color: #fff;
+}
+h1 {
+  font-size: 1.5rem;
+}
+main .content-top svg{
+  color: #fff;
+}
+main .content-top h1 {
+  font-weight: bolder;
+  color: #fff
+}
+.search-bar button {
+  border-radius: 50%;
+  border: 0;
+  padding: 0.3rem;
+  width: 2rem;
+}
+.search-bar button:hover {
+  background-color: black;
+  color:#fff;
+}
+.search-bar .button-background {
+  background-color: #FFB902;
+  border-radius: 0 50% 50% 0;
+}
+.search-bar input {
+  border-radius: 10px 0 0 10px;
+  border: 0;
+  padding: 0.3rem;
+  background-color: #FFB902;
+  width: 20rem;
+}
+.site-header a {
+  text-decoration: none;
+  color: #FFB902;
+}
+.site-header .github a:visited {
+  text-decoration: none;
+  color: #FFB902;
+}
+.card{
+  margin: 1rem 1rem;
+  color: #000;
+}
+.card-img-top{
+  cursor: pointer;
+}
+.album-musics {
+  margin-left: 5rem;
+}
+.track-list {
+  display: flex;
+  align-items: center;
+}
+.track-list:hover {
+  cursor: pointer;
+  color: #FFB830;
+}
+
+footer{
+  background-color: #FFB902;
+}
+
