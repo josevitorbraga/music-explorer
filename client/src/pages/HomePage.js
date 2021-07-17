@@ -7,7 +7,7 @@ export default function HomePage() {
   const [data, setData] = useState([]);
   useEffect(() => {
     async function getData() {
-      const data = await axios.get('http://localhost:3333/api');
+      const data = await axios.get('/api');
       setData(data.data.albums.data);
       console.log(data.data);
     }

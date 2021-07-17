@@ -19,9 +19,7 @@ export default function AlbumPage(props) {
 
   useEffect(() => {
     async function getAlbum() {
-      const response = await axios.get(
-        `http://localhost:3333/api/album/${albumId}`
-      );
+      const response = await axios.get(`/api/album/${albumId}`);
       setAlbum(response.data);
       console.log(response.data);
       setArtist(response.data.artist);
